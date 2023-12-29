@@ -51,7 +51,7 @@ var confetti = new ConfettiGenerator(confettiSettings);
 confetti.render();
 
  let p = document.createElement("p");
- p.innerText = "Congrats you made the right choice 🎉 \nDM me the time and venue 😉";
+ p.innerText = "Congrats you made the right choice 🎉 \nDM Your price is spending a day with me at https://www.misspepper.de and https://action-arena.info";
   p.style.fontSize = "2rem";
   p.style.fontWeight = "bold";
   p.style.textAlign = "center";
