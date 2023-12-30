@@ -51,7 +51,7 @@ var confetti = new ConfettiGenerator(confettiSettings);
 confetti.render();
 
  let p = document.createElement("p");
- p.innerText = "Congrats you made the right choice 🎉 \n Your price is spending a day with me at Action Arena Norderstedt <a href="url">https://action-arena.info</a> Miss PeppeR American Diner <a href="url">https://www.misspepper.de</a>";
+ p.innerText = "Congrats you made the right choice 🎉 \n Your price is spending a day with me at Action Arena Norderstedt https://action-arena.info Miss PeppeR American Diner https://www.misspepper.de";
   p.style.fontSize = "2rem";
   p.style.fontWeight = "bold";
   p.style.textAlign = "center";
