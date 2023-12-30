@@ -50,9 +50,8 @@ var confetti = new ConfettiGenerator(confettiSettings);
 
 confetti.render();
 
-document.addEventListener("DOMContentLoaded", function () {
-  let p = document.createElement("p");
-  p.innerHTML = 'Congrats you made the right choice 🎉 <br> Your prize is spending a day with me at <a href="https://action-arena.info">Action Arena Norderstedt</a> and <a href="https://www.misspepper.de">Miss PeppeR American Diner</a>';
+ let p = document.createElement("p");
+ p.innerHTML = 'Congrats you made the right choice 🎉 <br> Your prize is spending a day with me at <a href="https://action-arena.info">Action Arena Norderstedt</a> and <a href="https://www.misspepper.de">Miss PeppeR American Diner</a>';
   p.style.fontSize = "2rem";
   p.style.fontWeight = "bold";
   p.style.textAlign = "center";
